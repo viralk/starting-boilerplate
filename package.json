@@ -1,0 +1,24 @@
+{
+  "name": "todoapp",
+  "version": "0.0.1",
+  "description": "Simple boilerplate app in es6 to quickstart projects",
+  "scripts": {
+    "webpack-dev": "webpack --mode=development",
+    "webpack-build": "webpack --mode=production",
+    "html-copy": "cp src/index.html dist/index.html",
+    "dev": "npm run webpack-dev && npm run html-copy"
+  },
+  "author": "Manuel Coiai <manuel.coiai@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
