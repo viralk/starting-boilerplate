@@ -1,6 +1,6 @@
 {
-  "name": "todoapp",
-  "version": "0.0.1",
+  "name": "starting-boilerplate",
+  "version": "0.0.2",
   "description": "Simple boilerplate app in es6 to quickstart projects",
   "scripts": {
     "webpack-dev": "webpack --mode=development",
